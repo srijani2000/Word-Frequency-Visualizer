@@ -47,4 +47,4 @@ def analyze_text():
 
 if __name__ == '__main__':
     # Simple configuration - works for both development and production
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=True)
